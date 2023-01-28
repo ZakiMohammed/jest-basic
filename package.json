@@ -1,15 +1,15 @@
 {
   "name": "jest-basic",
   "version": "1.0.0",
-  "description": "",
+  "description": "JEST basic project for learning JEST.",
   "main": "index.js",
   "scripts": {
     "test": "jest",
     "test-watch": "jest --watchAll",
     "test-coverage": "jest --coverage --watchAll"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["jest"],
+  "author": "Zaki Mohammed",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^29.4.0",
