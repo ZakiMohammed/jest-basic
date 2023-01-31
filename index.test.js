@@ -16,9 +16,9 @@ describe('Index', () => {
     });
 
     // test spec
-    it('should not add two numbers if any of them is undefined', () => {
-      const received = sum(undefined, 20);
-      expect(received).toBeNaN();
+    it('should not add two numbers numbers are invalid', () => {
+      const received = sum(null, 20);
+      expect(received).toBeNull();
     });
   });
 
